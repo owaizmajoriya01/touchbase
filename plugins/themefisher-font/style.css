@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'themefisher-font';
-  src:  url('fonts/themefisher-font.eot%3Fug5hnh');
-  src:  url('fonts/themefisher-font.eot%3Fug5hnh') format('embedded-opentype'),
-    url('fonts/themefisher-font.ttf%3Fug5hnh') format('truetype'),
-    url('fonts/themefisher-font.woff%3Fug5hnh') format('woff'),
-    url('https://touchbasetele.netlify.app/plugins/themefisher-font/fonts/themefisher-font.svg?ug5hnh') format('svg');
+  src:  url('fonts/themefisher-font.eot');
+  src:  url('fonts/themefisher-font.eot') format('embedded-opentype'),
+    url('fonts/themefisher-font.ttf') format('truetype'),
+    url('fonts/themefisher-font.woff') format('woff'),
+    url('https://touchbasetele.netlify.app/plugins/themefisher-font/fonts/themefisher-font.svg') format('svg');
   font-weight: normal;
   font-style: normal;
 }
