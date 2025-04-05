@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     // Show/hide back to top button
-    if (window.scrollY > 300) {
+    if (window.scrollY > 20) {
       backToTopBtn.style.display = "block";
     } else {
       backToTopBtn.style.display = "none";
