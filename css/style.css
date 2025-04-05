@@ -178,14 +178,15 @@ body {
   }
   .careers-section {
     padding: 80px 20px;
-    background-color: #fff;
+    background-color: #0f1e3e; /* dark blue background */
     text-align: center;
+    color: #fff;
   }
   
   .careers-section h2 {
     font-size: 2rem;
     margin-bottom: 40px;
-    color: #222;
+    color: #fff;
   }
   
   .jobs-container {
@@ -198,17 +199,19 @@ body {
   }
   
   .job-card {
-    background: #f8f8f8;
+    background: #fff;
     padding: 30px 20px;
-    border-radius: 8px;
+    border-radius: 10px;
     width: 300px;
+    color: #222;
     text-align: left;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
-    transition: transform 0.3s ease;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
   }
   
   .job-card:hover {
-    transform: translateY(-5px);
+    transform: translateY(-6px);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
   }
   
   .job-card h3 {
@@ -217,7 +220,6 @@ body {
   }
   
   .job-card p {
-    color: #444;
     font-size: 0.95rem;
     margin-bottom: 20px;
   }
@@ -230,9 +232,9 @@ body {
     border-radius: 6px;
     text-decoration: none;
     font-weight: 500;
+    transition: background-color 0.3s ease;
   }
   
   .apply-btn:hover {
     background-color: #0056b3;
-  }
-        
+  }     
